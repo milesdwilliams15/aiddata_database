@@ -1,0 +1,270 @@
+crs_sector_code,crs_sector_name,crs_purpose_code,crs_purpose_name
+160,I.6. Other Social Infrastructure & Services,10000,Social Infrastructure and Services
+111,"I.1.a. Education, Level Unspecified",11000,"Education, combinations of purposes"
+111,"I.1.a. Education, Level Unspecified",11100,"Education, level unspecified, combinations of purposes"
+111,"I.1.a. Education, Level Unspecified",11105,"Education, level unspecified, purpose unspecified or does not fit under any other applicable codes"
+111,"I.1.a. Education, Level Unspecified",11110,Education Policy & Admin. Management
+111,"I.1.a. Education, Level Unspecified",11120,Education Facilities And Training
+111,"I.1.a. Education, Level Unspecified",11130,Teacher Training
+111,"I.1.a. Education, Level Unspecified",11182,Educational Research
+112,I.1.b. Basic Education,11220,Primary Education
+112,I.1.b. Basic Education,11230,Basic Life Skills For Youth & Adults
+112,I.1.b. Basic Education,11240,Early Childhood Education
+113,I.1.c. Secondary Education,11320,Secondary Education
+113,I.1.c. Secondary Education,11330,Vocational Training
+114,I.1.d. Post-Secondary Education,11420,Higher Education
+114,I.1.d. Post-Secondary Education,11430,Advanced Tech. & Managerial Training
+121,"I.2.a. Health, General",12000,"Health, combination of general, basic, and population policy/reproductive health purposes"
+121,"I.2.a. Health, General",12005,"Health, purpose unspecified or does not fit under any other applicable codes"
+121,"I.2.a. Health, General",12100,"Health, general, combinations of activities"
+121,"I.2.a. Health, General",12105,"Health, general, purpose unspecified or does not fit under any other applicable codes"
+121,"I.2.a. Health, General",12110,Health Policy & Admin. Management
+121,"I.2.a. Health, General",12181,Medical Education/Training
+121,"I.2.a. Health, General",12182,Medical Research
+121,"I.2.a. Health, General",12191,Medical Services
+122,I.2.b. Basic Health,12200,Basic health
+122,I.2.b. Basic Health,12220,Basic Health Care
+122,I.2.b. Basic Health,12230,Basic Health Infrastructure
+122,I.2.b. Basic Health,12240,Basic Nutrition
+122,I.2.b. Basic Health,12250,Infectious Disease Control
+122,I.2.b. Basic Health,12261,Health Education
+122,I.2.b. Basic Health,12262,Malaria Control
+122,I.2.b. Basic Health,12263,Tuberculosis Control
+122,I.2.b. Basic Health,12281,Health Personnel Development
+130,I.3. Population Pol./Progr. & Reproductive Health,13000,"Population policies/ programmes and reproductive health, combinations of activities"
+130,I.3. Population Pol./Progr. & Reproductive Health,13005,"Population policies/ programmes and reproductive health, purpose unspecified or does not fit under any other applicable codes"
+130,I.3. Population Pol./Progr. & Reproductive Health,13010,Population Policy And Admin. Mgmt
+130,I.3. Population Pol./Progr. & Reproductive Health,13020,Reproductive Health Care
+130,I.3. Population Pol./Progr. & Reproductive Health,13030,Family Planning
+130,I.3. Population Pol./Progr. & Reproductive Health,13040,Std Control Including Hiv/Aids
+130,I.3. Population Pol./Progr. & Reproductive Health,13081,Personnel Dvpt: Pop. & Repro Health
+140,I.4. Water Supply & Sanitation,14000,"Water Supply and Sanitation, combination of purposes"
+140,I.4. Water Supply & Sanitation,14005,"Water Supply and Sanitation, purpose unspecified or does not fit under any other applicable codes"
+140,I.4. Water Supply & Sanitation,14010,Water Resources Policy/Admin. Mgmt
+140,I.4. Water Supply & Sanitation,14015,Water Resources Protection
+140,I.4. Water Supply & Sanitation,14020,Water Supply & Sanit. - Large Syst.
+140,I.4. Water Supply & Sanitation,14021,Water Supply - Large Systems
+140,I.4. Water Supply & Sanitation,14022,Sanitation - Large Systems
+140,I.4. Water Supply & Sanitation,14030,Basic Drinking Water Supply And Basic Sanitation
+140,I.4. Water Supply & Sanitation,14031,Basic Drinking Water Supply
+140,I.4. Water Supply & Sanitation,14032,Basic Sanitation
+140,I.4. Water Supply & Sanitation,14040,River Development
+140,I.4. Water Supply & Sanitation,14050,Waste Management/Disposal
+140,I.4. Water Supply & Sanitation,14081,Educ./Trng:water Supply & Sanitation
+140,I.4. Water Supply & Sanitation,14082,Water Research
+151,I.5.a. Government & Civil Society-general,15000,"Government and civil society, combination of activities"
+151,I.5.a. Government & Civil Society-general,15100,"Government and civil society, general, combination of activities"
+151,I.5.a. Government & Civil Society-general,15105,"Government and civil society, purpose unspecified or does not fit under any other applicable codes"
+151,I.5.a. Government & Civil Society-general,15110,Public Sector Policy And Adm. Management
+151,I.5.a. Government & Civil Society-general,15111,Public Finance Management
+151,I.5.a. Government & Civil Society-general,15112,Decentralisation And Support To Subnational Govt.
+151,I.5.a. Government & Civil Society-general,15113,Anti-Corruption Organisations And Institutions
+151,I.5.a. Government & Civil Society-general,15120,Public Sector Financial Management
+151,I.5.a. Government & Civil Society-general,15130,Legal And Judicial Development
+151,I.5.a. Government & Civil Society-general,15140,Government Administration
+151,I.5.a. Government & Civil Society-general,15150,Democratic Participation And Civil Society
+151,I.5.a. Government & Civil Society-general,15151,Elections
+151,I.5.a. Government & Civil Society-general,15152,Legislatures And Political Parties
+151,I.5.a. Government & Civil Society-general,15153,Media And Free Flow Of Information
+151,I.5.a. Government & Civil Society-general,15160,Human Rights
+151,I.5.a. Government & Civil Society-general,15161,Elections
+151,I.5.a. Government & Civil Society-general,15162,Human Rights
+151,I.5.a. Government & Civil Society-general,15163,Free Flow Of Information
+151,I.5.a. Government & Civil Society-general,15164,Women's Equality Organisations And Institutions
+151,I.5.a. Government & Civil Society-general,15170,Women's Equality Organisations And Institutions
+152,"I.5.b. Conflict, Peace & Security",15200,"Conflict prevention and resolution, peace and security, combinations of activities"
+152,"I.5.b. Conflict, Peace & Security",15205,"Conflict prevention and resolution, peace and security, purpose unspecified or does not fit under any other applicable codes"
+152,"I.5.b. Conflict, Peace & Security",15210,Security System Management And Reform
+152,"I.5.b. Conflict, Peace & Security",15220,"Civilian Peace-Building, Conflict Prevention And Resolution"
+152,"I.5.b. Conflict, Peace & Security",15230,Post-Conflict Peace Building (Un)
+152,"I.5.b. Conflict, Peace & Security",15240,Reintegration And Salw Control
+152,"I.5.b. Conflict, Peace & Security",15250,Land Mine Clearance
+152,"I.5.b. Conflict, Peace & Security",15261,Child Soldiers (Prevention And Demobilisation)
+160,I.6. Other Social Infrastructure & Services,16000,Other Social and Infrastructure Services
+160,I.6. Other Social Infrastructure & Services,16010,Social/Welfare Services
+160,I.6. Other Social Infrastructure & Services,16020,Employment Policy And Admin. Mgmt.
+160,I.6. Other Social Infrastructure & Services,16030,Housing Policy And Admin. Management
+160,I.6. Other Social Infrastructure & Services,16040,Low-Cost Housing
+160,I.6. Other Social Infrastructure & Services,16050,Multisector Aid For Basic Soc. Serv.
+160,I.6. Other Social Infrastructure & Services,16061,Culture And Recreation
+160,I.6. Other Social Infrastructure & Services,16062,Statistical Capacity Building
+160,I.6. Other Social Infrastructure & Services,16063,Narcotics Control
+160,I.6. Other Social Infrastructure & Services,16064,Social Mitigation Of Hiv/Aids
+160,I.6. Other Social Infrastructure & Services,16081,"Other social infrastructure and services, education and training"
+210,II.1. Transport & Storage,20000,Economic Infrastructure & Services
+210,II.1. Transport & Storage,21000,"Transport and Storage, combination of purposes"
+210,II.1. Transport & Storage,21005,"Transport and Storage, purpose unspecified or does not fit under any other applicable codes"
+210,II.1. Transport & Storage,21010,Transport Policy & Admin. Management
+210,II.1. Transport & Storage,21020,Road Transport
+210,II.1. Transport & Storage,21030,Rail Transport
+210,II.1. Transport & Storage,21040,Water Transport
+210,II.1. Transport & Storage,21050,Air Transport
+210,II.1. Transport & Storage,21061,Storage
+210,II.1. Transport & Storage,21081,Educ./Trng In Transport & Storage
+220,II.2. Communications,22000,"Communications, combinations of activities"
+220,II.2. Communications,22005,"Communications, purpose unspecified or does not fit under any other applicable codes"
+220,II.2. Communications,22010,Communications Policy & Admin. Mgmt
+220,II.2. Communications,22020,Telecommunications
+220,II.2. Communications,22030,Radio/Television/Print Media
+220,II.2. Communications,22040,Information And Communication Technology
+220,II.2. Communications,22081,"Communications, education and training."
+230,II.3. Energy,23000,"Energy generation and supply, combinations of activities"
+230,II.3. Energy,23005,"Energy generation and supply, purpose unspecified or does not fit under any other applicable codes"
+230,II.3. Energy,23010,Energy Policy And Admin. Management
+230,II.3. Energy,23020,Power Generat./Non-Renewable Sources
+230,II.3. Energy,23030,Power Generation/Renewable Sources
+230,II.3. Energy,23040,Electrical Transmission/Distribution
+230,II.3. Energy,23050,Gas Distribution
+230,II.3. Energy,23055,Petroleum distribution and storage
+230,II.3. Energy,23061,Oil-Fired Power Plants
+230,II.3. Energy,23062,Gas-Fired Power Plants
+230,II.3. Energy,23063,Coal-Fired Power Plants
+230,II.3. Energy,23064,Nuclear Power Plants
+230,II.3. Energy,23065,Hydro-Electric Power Plants
+230,II.3. Energy,23066,Geothermal Energy
+230,II.3. Energy,23067,Solar Energy
+230,II.3. Energy,23068,Wind Power
+230,II.3. Energy,23069,Ocean Power
+230,II.3. Energy,23070,Biomass
+230,II.3. Energy,23081,Energy Education/Training
+230,II.3. Energy,23082,Energy Research
+240,II.4. Banking & Financial Services,24000,"Banking and financial services, combinations of activities"
+240,II.4. Banking & Financial Services,24005,"Banking and financial services, purpose unspecified or does not fit under any other applicable codes"
+240,II.4. Banking & Financial Services,24010,Financial Policy & Admin. Management
+240,II.4. Banking & Financial Services,24020,Monetary Institutions
+240,II.4. Banking & Financial Services,24030,Formal Sector Financ. Intermediaries
+240,II.4. Banking & Financial Services,24040,Informal/Semi-Formal Fin. Intermed.
+240,II.4. Banking & Financial Services,24081,Education/Trng In Banking & Fin. Services
+250,II.5. Business & Other Services,25000,Business and Other Services
+250,II.5. Business & Other Services,25010,Business Support Services & Institutions
+250,II.5. Business & Other Services,25020,Privatisation
+250,II.5. Business & Other Services,25081,Business education and training
+321,III.2.a. Industry,30000,Production Sectors
+311,III.1.a. Agriculture,31000,"Agriculture, combination of purposes in Agriculture, Forestry, Fishing"
+311,III.1.a. Agriculture,31100,"Agriculture, combinations of purposes in Agriculture, Agro-industry, Agribusiness"
+311,III.1.a. Agriculture,31105,"Agriculture, purpose unspecified or does not fit under any other applicable codes"
+311,III.1.a. Agriculture,31110,Agricultural Policy & Admin. Mgmt
+311,III.1.a. Agriculture,31120,Agricultural Development
+311,III.1.a. Agriculture,31130,Agricultural Land Resources
+311,III.1.a. Agriculture,31140,Agricultural Water Resources
+311,III.1.a. Agriculture,31150,Agricultural Inputs
+311,III.1.a. Agriculture,31161,Food Crop Production
+311,III.1.a. Agriculture,31162,Industrial Crops/Export Crops
+311,III.1.a. Agriculture,31163,Livestock
+311,III.1.a. Agriculture,31164,Agrarian Reform
+311,III.1.a. Agriculture,31165,Agricultural Alternative Development
+311,III.1.a. Agriculture,31166,Agricultural Extension
+311,III.1.a. Agriculture,31181,Agricultural Education/Training
+311,III.1.a. Agriculture,31182,Agricultural Research
+311,III.1.a. Agriculture,31191,Agricultural Services
+311,III.1.a. Agriculture,31192,Plant/Post-Harvest Prot. & Pest Ctrl
+311,III.1.a. Agriculture,31193,Agricultural Financial Services
+311,III.1.a. Agriculture,31194,Agricultural Co-Operatives
+311,III.1.a. Agriculture,31195,Livestock/Veterinary Services
+312,III.1.b. Forestry,31205,"Forestry, purpose unspecified or does not fit under any other applicable codes"
+312,III.1.b. Forestry,31210,Forestry Policy & Admin. Management
+312,III.1.b. Forestry,31220,Forestry Development
+312,III.1.b. Forestry,31261,Fuelwood/Charcoal
+312,III.1.b. Forestry,31281,Forestry Education/Training
+312,III.1.b. Forestry,31282,Forestry Research
+312,III.1.b. Forestry,31291,Forestry Services
+313,III.1.c. Fishing,31300,"Fishing, combination of activities"
+313,III.1.c. Fishing,31305,"Fishing, purpose unspecified or does not fit under any other applicable codes"
+313,III.1.c. Fishing,31310,Fishing Policy And Admin. Management
+313,III.1.c. Fishing,31320,Fishery Development
+313,III.1.c. Fishing,31330,Fishing Development
+313,III.1.c. Fishing,31381,Fishery Education/Training
+313,III.1.c. Fishing,31382,Fishery Research
+313,III.1.c. Fishing,31391,Fishery Services
+321,III.2.a. Industry,32000,"Industry, combination of purposes Industry, Mining and Construction"
+321,III.2.a. Industry,32100,Industry
+321,III.2.a. Industry,32105,"Industry, purpose unspecified (includes manufacturing of goods not specified below) or does not fit under any other applicable codes"
+321,III.2.a. Industry,32110,Industrial Policy & Admin. Mgmt
+321,III.2.a. Industry,32120,Industrial Development
+321,III.2.a. Industry,32130,Sme Development
+321,III.2.a. Industry,32140,Cottage Industries & Handicraft
+321,III.2.a. Industry,32161,Agro-Industries
+321,III.2.a. Industry,32162,Forest Industries
+321,III.2.a. Industry,32163,Textiles - Leather & Substitutes
+321,III.2.a. Industry,32164,Chemicals
+321,III.2.a. Industry,32165,Fertilizer Plants
+321,III.2.a. Industry,32166,Cement/Lime/Plaster
+321,III.2.a. Industry,32167,Energy Manufacturing
+321,III.2.a. Industry,32168,Pharmaceutical Production
+321,III.2.a. Industry,32169,Basic Metal Industries
+321,III.2.a. Industry,32170,Non-Ferrous Metal Industries
+321,III.2.a. Industry,32171,Engineering
+321,III.2.a. Industry,32172,Transport Equipment Industry
+321,III.2.a. Industry,32181,Industry education and training
+321,III.2.a. Industry,32182,Technological Research & Development
+321,III.2.a. Industry,32191,Industry services
+322,III.2.b. Mineral Resources & Mining,32200,"Mineral resources and mining, combination of purposes"
+322,III.2.b. Mineral Resources & Mining,32205,"Mineral resources and mining, purpose unspecified or does not fit under any other applicable codes"
+322,III.2.b. Mineral Resources & Mining,32210,Mineral/Mining Policy & Admin. Mgmt
+322,III.2.b. Mineral Resources & Mining,32220,Mineral Prospection And Exploration
+322,III.2.b. Mineral Resources & Mining,32261,Coal
+322,III.2.b. Mineral Resources & Mining,32262,Oil And Gas
+322,III.2.b. Mineral Resources & Mining,32263,Ferrous Metals
+322,III.2.b. Mineral Resources & Mining,32264,Non-Ferrous Metals
+322,III.2.b. Mineral Resources & Mining,32265,Precious Metals/Materials
+322,III.2.b. Mineral Resources & Mining,32266,Industrial Minerals
+322,III.2.b. Mineral Resources & Mining,32267,Fertilizer Minerals
+322,III.2.b. Mineral Resources & Mining,32268,Off-Shore Minerals
+322,III.2.b. Mineral Resources & Mining,32281,Mining Education / Training
+323,III.2.c. Construction,32310,Construction Policy And Admin. Mgmt
+331,III.3.a. Trade Policies & Regulations,33100,"Trade policy and regulations, combination of purposes"
+331,III.3.a. Trade Policies & Regulations,33105,"Trade policy and regulations, purpose unspecified (includes trade and trade promotion activities) or does not fit under any other applicable codes"
+331,III.3.a. Trade Policies & Regulations,33110,Trade Policy And Admin. Management
+331,III.3.a. Trade Policies & Regulations,33120,Trade Facilitation
+331,III.3.a. Trade Policies & Regulations,33130,Regional Trade Agreements    (Rtas)
+331,III.3.a. Trade Policies & Regulations,33140,Multilateral Trade Negotiations
+331,III.3.a. Trade Policies & Regulations,33150,Trade-Related Adjustment
+331,III.3.a. Trade Policies & Regulations,33181,Trade Education/Training
+332,III.3.b. Tourism,33200,Tourism
+332,III.3.b. Tourism,33210,Tourism Policy And Admin. Management
+410,IV.1. General Environment Protection,41000,"General environmental protection, combinations of purposes"
+410,IV.1. General Environment Protection,41005,"General environmental protection, purpose unspecified (includes miscellaneous conservation and protection measures not mentioned below) or does not fit under any other applicable codes"
+410,IV.1. General Environment Protection,41010,Environmental Policy And Admin. Mgmt
+410,IV.1. General Environment Protection,41020,Biosphere Protection
+410,IV.1. General Environment Protection,41030,Bio-Diversity
+410,IV.1. General Environment Protection,41040,Site Preservation
+410,IV.1. General Environment Protection,41050,Flood Prevention/Control
+410,IV.1. General Environment Protection,41081,Environmental Education/Training
+410,IV.1. General Environment Protection,41082,Environmental Research
+420,Women in development,42010,Women in development
+430,IV.2. Other Multisector,43010,Multisector Aid
+430,IV.2. Other Multisector,43030,Urban Development And Management
+430,IV.2. Other Multisector,43040,Rural Development
+430,IV.2. Other Multisector,43050,Non-Agricultural Alternative Dvpt
+430,IV.2. Other Multisector,43081,Multisector Education/Training
+430,IV.2. Other Multisector,43082,Research/Scientific Institutions
+510,VI.1. General Budget Support,51010,General Budget Support
+520,VI.2. Dev. Food Aid/Food Security Ass.,52010,Food Security Programmes/Food Aid
+530,VI.3. Other Commodity Ass.,53030,Import Support (Capital Goods)
+530,VI.3. Other Commodity Ass.,53040,Import Support (Commodities)
+530,VI.3. Other Commodity Ass.,53050,Export Support
+600,VII. Action Relating to Debt,60010,Action Relating To Debt
+600,VII. Action Relating to Debt,60020,Debt Forgiveness
+600,VII. Action Relating to Debt,60030,Relief Of Multilateral Debt
+600,VII. Action Relating to Debt,60040,Rescheduling And Refinancing
+600,VII. Action Relating to Debt,60061,Debt For Development Swap
+600,VII. Action Relating to Debt,60062,Other Debt Swap
+600,VII. Action Relating to Debt,60063,Debt Buy-Back
+700,HUMANITARIAN AID,70000,Emergency Assistance And Reconstruction
+720,VIII.1. Emergency Response,72000,"Emergency Response, combination of purposes"
+720,VIII.1. Emergency Response,72010,Emergency/Distress Relief
+720,VIII.1. Emergency Response,72020,Emergency health services/support
+720,VIII.1. Emergency Response,72030,Water and sanitation services/support
+720,VIII.1. Emergency Response,72040,Emergency Food Aid
+720,VIII.1. Emergency Response,72050,Relief Co-Ordination; Protection And Support Services
+730,VIII.2. Reconstruction Relief & Rehabilitation,73010,Reconstruction Relief
+740,VIII.3. Disaster Prevention & Preparedness,74010,Disaster Prevention And Preparedness
+910,IX. Administrative Costs of Donors,91010,Administrative Costs
+920,X. Support to NGO's,92000,"Support to non-governmental organizations and government organizations, combination of purposes"
+920,X. Support to NGO's,92005,"Support to non-governmental organizations and government organizations, purpose unspecified or does not fit under any other applicable codes"
+920,X. Support to NGO's,92010,Support To National Ngos
+920,X. Support to NGO's,92020,Support To International Ngos
+920,X. Support to NGO's,92030,Support To Local And Regional Ngos
+930,XI. Refugees in Donor Countries,93010,Refugees In Donor Countries
+998,XII. Unallocated / Unspecified,99810,Sectors Not Specified
+998,XII. Unallocated / Unspecified,99820,Promotion Of Development Awareness
