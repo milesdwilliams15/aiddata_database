@@ -1,0 +1,1 @@
+This folder contains relevant sub folders on different data sources of foreign aid data. At the momment, it only has data for version 3.1 of the core research release from AidData. I hope to soon have data from the OECD here as well in addition to Chinese aid data and data for other non-traditional donors.
