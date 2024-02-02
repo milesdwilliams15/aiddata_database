@@ -1,12 +1,75 @@
 # aiddata_database
-A centralized place for all the aid datasets I use.
 
-## What's here?
+The goal of this repository is to create a set of tools to allow easy access to datasets relevant to foreign aid research within R. At the moment, I can read in AidData core release data (version 3.1) at the level of:
 
-As of 02-02-2024, the `_data` folder contains all the files associated with the [most recent core data release by AidData](https://www.aiddata.org/data/aiddata-core-research-release-level-1-3-1) (version 3.1). The main data files have been saved a .csv files and can be easily read into R by writing the following code: 
+- donor-recipient-years
+- donor-recipient-sector-years
+- donor-recipient-purpose-years
+
+## How to use
+
+To access the tools to do so, all you need to do is run the following line of code in R. It will run source code housed in the "_code" folder in this repository for reading in the above datasets from my Google Drive. 
 
 ```
-
+source("http://tinyurl.com/aiddatadownloads")
 ```
 
-The data are mostly in their raw state, but I've taken some steps to ensure column titles are in an R-friendly format. I've also included a few different columns with one of Correlates of War, Gledisch-Ward, and ISO country codes for donors and recipients.
+The two main functions are:
+
+- `get_aiddata(level = c("total", "sector", "purpose"), subset_years = NULL)`: Reads in AidData at one of three possible levels of aggregation. `level = "total"` gives you totals at the donor-recipient-year level. `level = "sector"` does the same but also breaks it down by sectors. `level = "purpose"` does the same but also breaks it down by purpose.
+- `view_codes()`: Lets you see all the aid sector and purpose codes in a tidy data frame.
+
+There are some other functions that are just helpers for the main `get_aiddata()` function. 
+
+Once you've run the source code above, to access the available datasets, you can write any one of the following:
+
+```
+## access donor-recipient-year totals
+data <- get_aiddata()
+
+## access sector-level data
+data <- get_aiddata(level = "sector")
+
+## access purpose-level data
+data <- get_aiddata(level = "purpose")
+```
+
+If for some reason you'd like to subset your analysis to a single year or range of years, you can do so with the `subset_years` option. Say you want all available data from 2000 onward. You would write:
+
+```
+data <- get_aiddata(subset_years = 2000:2013)
+```
+
+## Data values
+
+Each dataset has the following columns:
+
+- `donor`: Donor organization or country name
+- `recipient`: Recipient name
+- `ccode_d`: CoW code for donor countries
+- `gwcode_d`: Gletisch-Ward code for donor countries
+- `isocode_d`: ISO-3 code for donor countries
+- `ccode_r`: CoW code for recipient countries
+- `gwcode_r`: Gletisch-Ward code for recipient countries
+- `isocode_r`: ISO-3 code for recipient countries
+- `commitments_2011_constant`: sum of aid commitments in 2011 constant USD
+
+Depending on the level of aggregation, the data will also have a couple of other columns. If you select `level = "sector"` the data will include:
+
+- `crs_sector_code`: Creditor Reporting System (CRS) sector code
+- `crs_sector_name`: CRS name
+
+Furthermore, the `commitments_2011_constant` column will equal the total aid committed by a donor to a recipient per aid sector.
+
+If you select `level = "sector"` the data will include:
+
+- `crs_purpose_code`: CRS purpose code
+- `crs_purpose_name`: CRS purpose name
+
+For this data, `commitments_2011_constant` will equal the total aid committed by a donor to a recipient for a particular purpose.
+
+## How the data were constructed
+
+You can see the details of how I constructed these datasets by checking out this document I created here: [01_aiddata_cleaning.pdf](https://github.com/milesdwilliams15/aiddata_database/blob/main/_code/01_aiddata_cleaning.pdf).
+
+If you notice any errors or have any suggestions, email me at williamsmd@denison.edu.
