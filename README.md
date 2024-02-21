@@ -46,7 +46,7 @@ Each dataset has the following columns:
 
 - `donor`: Donor organization or country name
 - `recipient`: Recipient name
-- `ccode_d`: CoW code for donor countries
+- `ccode_d`: CoW code for donor countries. 
 - `gwcode_d`: Gletisch-Ward code for donor countries
 - `isocode_d`: ISO-3 code for donor countries
 - `ccode_r`: CoW code for recipient countries
@@ -54,7 +54,15 @@ Each dataset has the following columns:
 - `isocode_r`: ISO-3 code for recipient countries
 - `commitments_2011_constant`: sum of aid commitments in 2011 constant USD
 
-Depending on the level of aggregation, the data will also have a couple of other columns. If you select `level = "sector"` the data will include:
+Some things to note: 
+
+- There should be no missing values for aid commitments, because the AidData dataset only reports donor-recipient years for which aid was committed. 
+- There are a couple of donors for which year = 9999 (missing). Be sure to adjust for this if necessary.
+- For non-country donors in the data, there are no valid country code values.
+
+## Different levels of aggregation
+
+Depending on the level of aggregation, the data will also have additional columns. If you select `level = "sector"` the data will include:
 
 - `crs_sector_code`: Creditor Reporting System (CRS) sector code
 - `crs_sector_name`: CRS name
@@ -73,3 +81,7 @@ For this data, `commitments_2011_constant` will equal the total aid committed by
 You can see the details of how I constructed these datasets by checking out this document I created here: [01_aiddata_cleaning.pdf](https://github.com/milesdwilliams15/aiddata_database/blob/main/_code/01_aiddata_cleaning.pdf).
 
 If you notice any errors or have any suggestions, email me at williamsmd@denison.edu.
+
+## Other helpful resources
+
+For project level data, several years ago someone created an API for R users to pull this data. You can check it out at this link here: https://github.com/felixhaass/aiddata/tree/master
