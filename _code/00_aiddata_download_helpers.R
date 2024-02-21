@@ -87,10 +87,10 @@ get_aiddata <- function(
     level = c("total", "sector", "purpose"),
     subset_years = NULL
 ) {
+  level <- level[1]
   if(!(level %in%  c("total", "sector", "purpose"))) stop(
     "Pick one of 'total', 'sector', or 'purpose' for option level."
   )
-  level <- level[1]
   if(level == "total") {
     dt <- get_donorrecipientyear(subset_years)
   } else if(level == "sector") {
