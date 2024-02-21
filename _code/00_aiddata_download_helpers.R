@@ -4,22 +4,15 @@
 
 
 # setup -------------------------------------------------------------------
-library(dplyr)
-installed.packages() |>
-  as_tibble() |>
-  pull(Package) -> your_packages
-have_googlesheets4 <- "googlesheets4" %in% your_packages
 
-if(have_googlesheets4) {
-  library(googlesheets4)
-  gs4_deauth()
-} else {
-  message("You don't have {googlesheets4}. It's being installed for you.")
-  install.packages("googlesheets4")
-  library(googlesheets4)
-  gs4_deauth()
+## make sure you have {readr}
+your_packages <- installed.packages() |>
+  rownames()
+have_readr <- "readr" %in% your_packages
+if(!have_readr) {
+  cat("You don't have {readr}. It is being installed for you.")
+  install.packages("readr")
 }
-
 
 # get_donorrecipientyear --------------------------------------------------
 
@@ -27,7 +20,7 @@ get_donorrecipientyear <- function(
     subset_years = NULL
 ) {
   id <- "1EsXsOV6S5mtZ8FVqYIeZTLlq-Vw6gDA4"
-  dt <- read_csv(sprintf("https://docs.google.com/uc?id=%s&export=download", id))
+  dt <- readr::read_csv(sprintf("https://docs.google.com/uc?id=%s&export=download", id))
   
   if(is.null(subset_years)) {
     dt # return
@@ -50,7 +43,7 @@ get_donorrecipientsectoryear <- function(
     subset_years = NULL
 ) {
   id <- "1EaqUZWipV1Dopfm998gsB_LSK7def8jR"
-  dt <- read_csv(sprintf("https://docs.google.com/uc?id=%s&export=download", id))
+  dt <- readr::read_csv(sprintf("https://docs.google.com/uc?id=%s&export=download", id))
   
   if(is.null(subset_years)) {
     dt # return
@@ -72,7 +65,7 @@ get_donorrecipientpurposeyear <- function(
     subset_years = NULL
 ) {
   id <- "1Ea8p5zAfOXE_flfbgNce4FwbqTvpkUos"
-  dt <- read_csv(sprintf("https://docs.google.com/uc?id=%s&export=download", id))
+  dt <- readr::read_csv(sprintf("https://docs.google.com/uc?id=%s&export=download", id))
   
   if(is.null(subset_years)) {
     dt # return
@@ -113,7 +106,7 @@ get_aiddata <- function(
 
 view_codes <- function() {
   id <- "1EnuQPVlilNILvT7nhYq35hxqhmKynlDq"
-  read_csv(sprintf("https://docs.google.com/uc?id=%s&export=download", id))
+  readr::read_csv(sprintf("https://docs.google.com/uc?id=%s&export=download", id))
 }
 
 ## test
