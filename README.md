@@ -18,7 +18,7 @@ The three main functions are:
 
 - `get_aiddata(level = c("total", "sector", "purpose"), subset_years = NULL)`: Reads in AidData at one of three possible levels of aggregation. `level = "total"` gives you totals at the donor-recipient-year level. `level = "sector"` does the same but also breaks it down by sectors. `level = "purpose"` does the same but also breaks it down by purpose. Values returned are for all rows in the data for which aid commitments are non-zero.
 - `view_codes()`: Lets you see all the aid sector and purpose codes in a tidy data frame.
-- `add_full_dyads()`: Expands the dataset to include all possible donor-recipient dyads per year (and per sector or purpose if applicable). This expands the data to the true set of possible donor-recipient pairs in a given year for which a donor could have given a repipient aid but did not.
+- `add_full_dyads()`: Expands the dataset to include all possible donor-recipient dyads per year (and per sector or purpose if applicable). This expands the data to the true set of possible donor-recipient pairs in a given year for which a donor could have given a recipient aid but did not.
 
 There are some other functions that are just helpers for the main `get_aiddata()` function. 
 
