@@ -14,10 +14,11 @@ To access the tools to do so, all you need to do is run the following line of co
 source("http://tinyurl.com/aiddatadownloads")
 ```
 
-The two main functions are:
+The three main functions are:
 
-- `get_aiddata(level = c("total", "sector", "purpose"), subset_years = NULL)`: Reads in AidData at one of three possible levels of aggregation. `level = "total"` gives you totals at the donor-recipient-year level. `level = "sector"` does the same but also breaks it down by sectors. `level = "purpose"` does the same but also breaks it down by purpose.
+- `get_aiddata(level = c("total", "sector", "purpose"), subset_years = NULL)`: Reads in AidData at one of three possible levels of aggregation. `level = "total"` gives you totals at the donor-recipient-year level. `level = "sector"` does the same but also breaks it down by sectors. `level = "purpose"` does the same but also breaks it down by purpose. Values returned are for all rows in the data for which aid commitments are non-zero.
 - `view_codes()`: Lets you see all the aid sector and purpose codes in a tidy data frame.
+- `add_full_dyads()`: Expands the dataset to include all possible donor-recipient dyads per year (and per sector or purpose if applicable). This expands the data to the true set of possible donor-recipient pairs in a given year for which a donor could have given a repipient aid but did not.
 
 There are some other functions that are just helpers for the main `get_aiddata()` function. 
 
@@ -32,6 +33,10 @@ data <- get_aiddata(level = "sector")
 
 ## access purpose-level data
 data <- get_aiddata(level = "purpose")
+
+## take a dataset and expand to all possible dyads
+data <- get_aiddata() |>
+   add_full_dyads()
 ```
 
 If for some reason you'd like to subset your analysis to a single year or range of years, you can do so with the `subset_years` option. Say you want all available data from 2000 onward. You would write:
@@ -58,7 +63,7 @@ Some things to note:
 
 - There should be no missing values for aid commitments, because the AidData dataset only reports donor-recipient years for which aid was committed. 
 - There are a couple of donors for which year = 9999 (missing). Be sure to adjust for this if necessary.
-- For non-country donors in the data, there are no valid country code values.
+- CoW, GW, and ISO codes are not available for all recipients and donors because some are non-state actors. If you want to study only sets of country pairs, you can simply filter out NA values for one of the three different country codes, each of which defines the scope of country actors using unique criteria. For example, filtering out NAs for the `ccode_d` and `ccode_r` columns will leave you with a donor-recipient dataset for all states in the world that are donors/recipients according to the Correlates of War state system.
 
 ## Different levels of aggregation
 
